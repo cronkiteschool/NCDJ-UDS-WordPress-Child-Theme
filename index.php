@@ -30,7 +30,7 @@ $custom_fields = get_post_custom();
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-8">
-							<?php include (TEMPLATEPATH . '/frontpage_feature.php' ); ?>
+							<?php include (STYLESHEETPATH . '/frontpage_feature.php' ); ?>
 
 							<a id="main-target" name="main-target" tabindex="-1"></a>
 							<div class="main">
