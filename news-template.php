@@ -48,7 +48,7 @@ $custom_fields = get_post_custom();
 					?>
 					<h1 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
 					
-					<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
+					<?php include (STYLESHEETPATH . '/inc/meta.php' ); ?>
 
 					<?php the_content('Read more.'); ?>
 						
@@ -75,7 +75,7 @@ $custom_fields = get_post_custom();
 
 			<?php endwhile; ?>
 
-	<?php include (TEMPLATEPATH . '/_/inc/nav.php' ); ?>	
+	<?php include (STYLESHEETPATH . '/inc/nav.php' ); ?>	
 <?php wp_reset_query();?>	
 
 <?php posts_nav_link(); ?>

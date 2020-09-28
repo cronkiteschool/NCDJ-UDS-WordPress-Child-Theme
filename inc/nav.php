@@ -1,0 +1,1 @@
+<div class="blog-nav"><span class="nav-prevnext"><?php posts_nav_link('</span><span class="nav-prevnext">','Newer Posts','Older Posts'); ?></span></div>

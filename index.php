@@ -41,7 +41,7 @@ $custom_fields = get_post_custom();
 
 										<article <?php post_class() ?> id="post-<?php the_ID(); ?>" class="post">
 											<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-											<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
+											<?php include (STYLESHEETPATH . '/inc/meta.php' ); ?>
 
 											<?php the_content('Continue reading...'); ?>
 										</article>
