@@ -1,0 +1,12 @@
+
+@media only screen and (max-width: 992px) {
+  /* Remove z-index */
+  #asu_hdr,
+  #asu_nav_wrapper,
+  #asu_nav_menu,
+  #asu_universal_nav > ul > li,
+  #asu_universal_nav > ul > li:hover,
+  #asu_universal_nav ul li:hover > ul {
+    z-index: 0;
+    background: red;
+  }

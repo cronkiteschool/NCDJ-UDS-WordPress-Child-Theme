@@ -1,0 +1,135 @@
+/*
+ Theme Name:   NCDJ Webspark Child
+ Theme URI:    http://example.com/webspark-child/
+ Description:  Webspark Child Theme
+ Author:       Lily Altavena
+ Author URI:   http://example.com
+ Template:     ASU-Web-Standards-Wordpress-Theme
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  webspark-child
+*/
+
+body {
+  color: #333;
+  font: 400 100% "Open Sans", Geneva, Arial, sans-serif;
+  /* 16px */
+  font-size: 0.95rem;
+}
+
+
+#site-name-desktop div, #site-name-desktop h1 {
+    letter-spacing: -.5px;
+    line-height: 1.75rem;
+    padding: 4px 6px 2px;
+    margin-left: 4px;
+}
+
+.h1, h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+element.style {
+    width: 300px;
+    left: auto;
+    top: 0px;
+}
+
+.site-content .container {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.h2, .h3, h2, h3 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    line-height: 1.44;
+}
+
+
+.widget {
+  list-style: none;
+  padding-left: 0;
+  padding-right:10px;
+}
+
+a {
+    border-bottom: 1px dotted #8c1d40;
+    color: #8c1d40;
+    font-weight: 400;
+}
+
+i.fa-facebook-square {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 40px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+i.fa-twitter-square {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 40px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.asu_nav_wrapper  {
+	background-color: #fff;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+  /* Mobile menu dropdown container */
+  #asu_mobile_menu {
+    clear: both;
+    background: #303030 url(//www.asu.edu/asuthemes/4.0-rsp.1/images/asu_mobile_menu_bg.png) 0 0 repeat-x;
+    width: 100%;
+  }
+  #asu_mobile_menu.asutoggle_off {
+    display: none;
+  }
+  #asu_mobile_menu.asutoggle_on {
+    display: block;
+  }
+  #asu_nav_wrapper {
+    float: none;
+    margin: 0;
+    max-width: 100%;
+  }
+  #asu_nav_menu {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+
+}
