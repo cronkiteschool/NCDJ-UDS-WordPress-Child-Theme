@@ -13,7 +13,7 @@
           <div class="container">
          <div class="row"> 
          <div class="col-sm-1 hidden-xs">
-          <a href="/"> <img alt="NCDJ" class="img-responsive" title="National Center on Disability and Journalism" src="http://ncdj.org/wp-content/uploads/2015/04/ncdj-logo-box.jpg"></a>
+          <a href="/"> <img alt="NCDJ" class="img-responsive" title="National Center on Disability and Journalism" src="https://ncdj.org/wp-content/uploads/2015/04/ncdj-logo-box.jpg"></a>
           </div>
           <div class="col-sm-4 hidden-xs">
             <div class="site-title hidden-xs" id="asu_school_name"
@@ -69,7 +69,7 @@
               <div id="asu_nav_wrapper"><ul class="social-media">
                            <div id="asu_nav_menu">
 
-          <a href="https://cronkite.asu.edu"> <img src="http://ncdj.org/wp-content/uploads/cronkite-logo-maroon.png" alt="Cronkite School Logo" height=80></a>
+          <a href="https://cronkite.asu.edu"> <img src="https://ncdj.org/wp-content/uploads/cronkite-logo-maroon.png" alt="Cronkite School Logo" height=80></a>
             
               </div>
               </div>
