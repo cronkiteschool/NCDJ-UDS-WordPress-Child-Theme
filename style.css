@@ -1,15 +1,15 @@
 /*
- Theme Name:   NCDJ Webspark Child
- Theme URI:    http://example.com/webspark-child/
- Description:  Webspark Child Theme
- Author:       Lily Altavena
- Author URI:   http://example.com
- Template:     ASU-Web-Standards-Wordpress-Theme
+ Theme Name:   NCDJ  UDS WordPress Child Theme
+ Description:  Child theme for UDS WordPress
  Version:      1.0.0
+ Template: UDS-WordPress-Theme
+ Text Domain: uds-wordpress-theme-child
+
+ GitHub Theme URI: https://github.com/cronkiteschool/NCDJ-UDS-WordPress-Child-Theme.git
+
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  webspark-child
 */
 
 body {
