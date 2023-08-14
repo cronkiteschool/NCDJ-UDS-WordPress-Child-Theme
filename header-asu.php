@@ -17,7 +17,11 @@
           </div>
           <div class="col-sm-4 hidden-xs">
             <div class="site-title hidden-xs" id="asu_school_name"
-              style="<?php echo esc_attr( $site_title_attr ); ?>"
+	      style="<?php 
+if(isset($site_title_attr)){
+	echo esc_attr( $site_title_attr );
+}	
+?>"
             >
               <?php
                 // Print the parent organization and its link
